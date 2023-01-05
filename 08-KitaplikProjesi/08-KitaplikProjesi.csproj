@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>_08_KitaplikProjesi</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="01-BilgiYarismasi\**" />
+    <Compile Remove="02-PozitifBolenleriBulma\**" />
+    <Compile Remove="03-AlgoritmaMulakatSorusu\**" />
+    <EmbeddedResource Remove="01-BilgiYarismasi\**" />
+    <EmbeddedResource Remove="02-PozitifBolenleriBulma\**" />
+    <EmbeddedResource Remove="03-AlgoritmaMulakatSorusu\**" />
+    <None Remove="01-BilgiYarismasi\**" />
+    <None Remove="02-PozitifBolenleriBulma\**" />
+    <None Remove="03-AlgoritmaMulakatSorusu\**" />
+  </ItemGroup>
+
+</Project>
